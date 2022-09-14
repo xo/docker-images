@@ -1,7 +1,8 @@
 #!/bin/bash
 
-docker exec -it ignite \
+podman exec -it ignite \
   /opt/ignite/apache-ignite/bin/control.sh \
-  --activate \
+  --yes \
+  --set-state ACTIVE \
   --user ignite \
   --password ignite

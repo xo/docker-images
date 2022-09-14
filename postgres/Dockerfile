@@ -1,4 +1,4 @@
-FROM postgres
+FROM docker.io/library/postgres
 RUN \
   DEBIAN_FRONTEND=noninteractive make-ssl-cert generate-default-snakeoil --force-overwrite \
   && cp /etc/ssl/certs/ssl-cert-snakeoil.pem /var/lib/postgresql/server.crt \
