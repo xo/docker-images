@@ -3,7 +3,7 @@ Description="build usql images daily at 11:05pm"
 
 [Timer]
 OnCalendar=*-*-* 23:05:00
-Unit=build-usql-images.service
+Unit=usql-images.service
 
 [Install]
 WantedBy=timers.target

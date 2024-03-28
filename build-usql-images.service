@@ -1,5 +1,0 @@
-[Unit]
-Description="build usql images"
-
-[Service]
-ExecStart=/home/user/src/usql/docker-images/build.sh -p

@@ -1,0 +1,5 @@
+[Unit]
+Description="build usql images"
+
+[Service]
+ExecStart=/home/user/src/usql-images/build.sh -p
