@@ -24,8 +24,7 @@ set -e
 
 # determine databases
 if [ ${#IMAGES[@]} -eq 0 ]; then
-  #IMAGES=(postgres cassandra)
-  IMAGES=(usql)
+  IMAGES=(usql postgres cassandra)
 fi
 
 # determine targets
