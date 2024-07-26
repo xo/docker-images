@@ -8,4 +8,4 @@ were not available).
 
 [xo]: https://github.com/xo/xo
 [usql]: https://github.com/xo/usql
-[docker-hub]: https://hub.docker.com/orgs/usql
+[docker-hub]: https://hub.docker.com/u/usql
