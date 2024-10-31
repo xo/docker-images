@@ -1,4 +1,4 @@
-FROM docker.io/library/debian:bookworm-slim
+FROM docker.io/library/ubuntu:rolling
 ARG VERSION
 RUN \
     apt-get update -y \
